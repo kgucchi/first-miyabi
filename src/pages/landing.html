@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miyabi - 一つのコマンドで全てが完結する自律型開発フレームワーク。AIエージェントが自動的にコードを生成、テスト、レビュー、デプロイします。">
+    <meta name="keywords" content="Miyabi, Agentic OS, 自律型開発, AI, 開発フレームワーク">
+
+    <!-- OGP -->
+    <meta property="og:title" content="Miyabi - 自律型開発フレームワーク">
+    <meta property="og:description" content="一つのコマンドで全てが完結。AIエージェントが自動的に開発を進める次世代フレームワーク。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/og-image.png">
+
+    <title>Miyabi - 自律型開発フレームワーク | Agentic OS</title>
+
+    <link rel="stylesheet" href="../styles/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    <span class="title-main">雅</span>
+                    <span class="title-sub">Miyabi</span>
+                </h1>
+                <p class="hero-subtitle">一つのコマンドで全てが完結する<br>自律型開発フレームワーク</p>
+                <p class="hero-description">
+                    AIエージェントがGitHub Issueを自動検出し、<br>
+                    コード生成からテスト、レビュー、デプロイまで完全自律で実行
+                </p>
+                <div class="hero-cta">
+                    <a href="#get-started" class="btn btn-primary">今すぐ始める</a>
+                    <a href="#features" class="btn btn-secondary">特徴を見る</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">AIエージェント</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">自動化</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10秒</div>
+                        <div class="stat-label">監視間隔</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title fade-in-up">7つの自律型エージェント</h2>
+            <p class="section-subtitle fade-in-up">それぞれが専門性を持ち、協調して動作します</p>
+
+            <div class="features-grid">
+                <div class="feature-card fade-in-up" data-delay="0">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Coordinator</h3>
+                    <p class="feature-description">タスク統括・DAG分解。Issue分解、並行実行制御、Agent割当を担当</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="100">
+                    <div class="feature-icon">💻</div>
+                    <h3 class="feature-title">Codegen</h3>
+                    <p class="feature-description">AI駆動コード生成。TypeScript生成、テスト自動生成を実行</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="200">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Review</h3>
+                    <p class="feature-description">コード品質判定。静的解析、セキュリティスキャン（80点以上で承認）</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="300">
+                    <div class="feature-icon">📋</div>
+                    <h3 class="feature-title">Issue</h3>
+                    <p class="feature-description">Issue分析・ラベリング。組織設計原則65ラベル体系で自動分類</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="400">
+                    <div class="feature-icon">🔀</div>
+                    <h3 class="feature-title">PR</h3>
+                    <p class="feature-description">Pull Request自動化。Draft PR作成、Conventional Commits準拠</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="500">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Deploy</h3>
+                    <p class="feature-description">CI/CDデプロイ。Firebase Deploy、ヘルスチェック、Rollback対応</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="600">
+                    <div class="feature-icon">🕷️</div>
+                    <h3 class="feature-title">Mizusumashi</h3>
+                    <p class="feature-description">Super App Designer。アプリYAML自動生成、自己修復関数</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2 class="section-title fade-in-up">使用例</h2>
+            <p class="section-subtitle fade-in-up">たった1つのコマンドで開発が始まります</p>
+
+            <div class="demo-content fade-in-up">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <div class="terminal-title">Terminal</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">npx miyabi auto -y</span>
+                        </div>
+                        <div class="terminal-line output">
+                            🕷️  Water Spider Agent - Auto Mode 起動
+                        </div>
+                        <div class="terminal-line output">
+                            システム全体を巡回監視し、自律的に判断・実行を継続します
+                        </div>
+                        <div class="terminal-line output success">
+                            ✅ issueAgent実行成功: #1
+                        </div>
+                        <div class="terminal-line output success">
+                            ✅ codegenAgent実行成功: #1
+                        </div>
+                        <div class="terminal-line output success">
+                            ✅ reviewAgent実行成功: PR #2
+                        </div>
+                        <div class="terminal-line">
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-features">
+                <div class="demo-feature fade-in-up" data-delay="0">
+                    <div class="demo-step">1</div>
+                    <h4>Issue作成</h4>
+                    <p>GitHubでIssueを作成するだけ</p>
+                </div>
+                <div class="demo-arrow">→</div>
+                <div class="demo-feature fade-in-up" data-delay="100">
+                    <div class="demo-step">2</div>
+                    <h4>自動検出</h4>
+                    <p>Water Spider Agentが10秒ごとに監視</p>
+                </div>
+                <div class="demo-arrow">→</div>
+                <div class="demo-feature fade-in-up" data-delay="200">
+                    <div class="demo-step">3</div>
+                    <h4>自動実行</h4>
+                    <p>コード生成からデプロイまで完全自動</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section class="get-started" id="get-started">
+        <div class="container">
+            <h2 class="section-title fade-in-up">今すぐ始める</h2>
+
+            <div class="setup-steps">
+                <div class="setup-step fade-in-up" data-delay="0">
+                    <div class="step-number">01</div>
+                    <h3>インストール</h3>
+                    <div class="code-block">
+                        <code>npm install -g miyabi</code>
+                    </div>
+                </div>
+
+                <div class="setup-step fade-in-up" data-delay="100">
+                    <div class="step-number">02</div>
+                    <h3>認証</h3>
+                    <div class="code-block">
+                        <code>npx miyabi auth login</code>
+                    </div>
+                </div>
+
+                <div class="setup-step fade-in-up" data-delay="200">
+                    <div class="step-number">03</div>
+                    <h3>起動</h3>
+                    <div class="code-block">
+                        <code>npx miyabi auto -y</code>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section fade-in-up">
+                <a href="https://github.com/ShunsukeHayashi/Miyabi" class="btn btn-large" target="_blank">
+                    GitHubで詳細を見る
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>雅 Miyabi</h3>
+                    <p>自律型開発フレームワーク</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>プロダクト</h4>
+                        <ul>
+                            <li><a href="#features">特徴</a></li>
+                            <li><a href="#demo">デモ</a></li>
+                            <li><a href="#get-started">始め方</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>リソース</h4>
+                        <ul>
+                            <li><a href="https://github.com/ShunsukeHayashi/Miyabi">GitHub</a></li>
+                            <li><a href="#">ドキュメント</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>コミュニティ</h4>
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Miyabi Agentic OS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/landing.js"></script>
+</body>
+</html>
